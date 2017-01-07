@@ -1,0 +1,10 @@
+Uuid: b5d1bc00258744c18b0efd114d196901
+ExtensionType: 2
+Name: PDF Metadata
+ScreenVersion: 0.5
+SerialVersion: 3
+MinPlatformVersion: 1
+ProOnly: True
+Author: Veit Hailperin @fenceposterror
+ShortDescription: Provides an additional passive Scanner check for metadata in PDF files.
+EntryPoint: PdfMetadata.py

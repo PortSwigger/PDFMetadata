@@ -1,20 +1,9 @@
-<p>This extension scans PDF files for metadata. These can contain information on usernames, personal names, software used, etc.</p>
-<p>If this extension is loaded it will be run on passive scans.</p>
-<br>
-<b>Supported Metadata:</b>
+<p>This extension provides an additional passive Scanner check for metadata in PDF files.</p>
+<p>Requires Jython 2.7, pdfminer and chardet.</p>
+<p>Some installations of Python don't include pdfminer or chardet. In this case, you need to download them from their official sites:
 <ul>
-  <li>Document Information</li>
-  <li>XMP Metadata</li>
+    <li>pdfminer: <a href="https://pypi.python.org/pypi/pdfminer/">https://pypi.python.org/pypi/pdfminer/</a></li>
+    <li>chardet: <a href="https://pypi.python.org/pypi/chardet/">https://pypi.python.org/pypi/chardet/</a></li>
 </ul>
-<b>Requirements:</b>
-<ul>
-  <li>Jython 2.7</li>
-  <li>python-chardet</li>
-  <li>python-pdfminer</li>
-  <li>xerces.jar (for XMP parse support)</li>
-</ul>
+You will need to specify the location of the directory containing the packages in Extender / Options / Python Environment / Folder for loading modules.</p>
 
-<p>To be able to profit of the plugins capability you will need to start Burp with</p>
-<pre>java -classpath /path/to/xercesImpl.jar:/path/to/burp.jar burp.StartBurp</pre>
-
-<p>More information can be found on https://github.com/luh2/PDFMetadata</p>
