@@ -1,6 +1,7 @@
 Uuid: b5d1bc00258744c18b0efd114d196901
 ExtensionType: 2
 Name: PDF Metadata
+RepoName: pdf-metadata
 ScreenVersion: 0.5
 SerialVersion: 3
 MinPlatformVersion: 1
