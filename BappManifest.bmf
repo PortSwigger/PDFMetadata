@@ -4,7 +4,7 @@ Name: PDF Metadata
 RepoName: pdf-metadata
 ScreenVersion: 0.5
 SerialVersion: 4
-MinPlatformVersion: 1
+MinPlatformVersion: 2
 ProOnly: True
 Author: Veit Hailperin @fenceposterror
 ShortDescription: Provides an additional passive Scanner check for metadata in PDF files.
