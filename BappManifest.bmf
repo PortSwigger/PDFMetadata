@@ -3,7 +3,7 @@ ExtensionType: 2
 Name: PDF Metadata
 RepoName: pdf-metadata
 ScreenVersion: 0.5
-SerialVersion: 3
+SerialVersion: 4
 MinPlatformVersion: 1
 ProOnly: True
 Author: Veit Hailperin @fenceposterror
